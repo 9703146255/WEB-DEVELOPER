@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First React Page/this is like a component based</title>
+    <script>
+            function login(title){
+                document.write(`<div>
+                        <h3>${title} Register<h3>
+                            <input type="email"><button>Register</button> 
+                        </div>`)
+            }
+            function bodyLoad()
+            {
+                login('Admin');
+                login('User');
+                login('Manager');
+            }
+    </script>
+</head>
+<body onload="bodyLoad()">
+   
+</body>
+</html>

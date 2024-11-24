@@ -1,0 +1,38 @@
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: teal;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    padding: 20px 23px;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    background-color: brown;
+}
+h1{
+    text-align: center;
+    color: greenyellow;
+}
+
+html{
+    background-color: bisque;
+    width: 100%;
+}
+body{
+    width: 70%;
+    margin: 0 auto;
+    background-color: azure;
+    
+}
+p{
+    margin-left: 30px;
+    margin-right: 30px;
+}
